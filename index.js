@@ -1,0 +1,1 @@
+alert('external Js file add system');
