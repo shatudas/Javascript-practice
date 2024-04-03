@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>temperature converter</title>
+</head>
+<body>
+
+
+<!-- Farnheat to calsius -->
+
+    <script>
+        var farn = parseFloat(prompt("Enter Farnhent  Temperature : "));
+
+        var celc = (farn - 32) * (5/9);
+
+        document.write("Celsius: " + celc +" "+ "C");
+
+    </script>
+
+
+    <!-- Calsius to Farnheat -->
+
+    <script>
+        var celc = parseFloat(prompt("Enter Calsius Temperature : "));
+
+        var farn = (celc *(5/9)) + 32;
+
+        document.write("Farnhent :" + farn +" "+ "F");
+    </script>
+    
+</body>
+</html>
